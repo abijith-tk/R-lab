@@ -27,11 +27,14 @@ cat("Product=",prod(ve))
 # program 4 : v=[1,2,3,4,5,6,-7,-6,8,-9] . Find elements between -6 and 3 
 
 v=c(1,2,3,4,5,6,-6,-7,8,-9)
+count=0
 for(i in v){
-  if(i>=-6 && i<=3){
+  if(i>-6 && i<3){
     print(i)
+    count=count+1
   }
 }
+cat("Count=",count)
 
 # program 5 : Extract the last element from the vector 
 
