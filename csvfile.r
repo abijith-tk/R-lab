@@ -5,9 +5,9 @@ salary=c(60754,59640,69040,65043,59943,65000,69000)
 projects=c(4,2,8,5,2,5,7)
 df=data.frame(id,name,dept,salary,projects)
 df
-write.csv(df,file='/home/student/abijith/R/emp.csv',row.names = FALSE)
+write.csv(df,file='/path/emp.csv',row.names = FALSE)
 
-csvfile=read.csv('/home/student/abijith/R/emp.csv',header = TRUE,sep=',')
+csvfile=read.csv('/path/emp.csv',header = TRUE,sep=',')
 csvfile
 min_pro=subset(csvfile,csvfile['projects']==min(csvfile['projects']))
 min_pro
