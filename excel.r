@@ -1,5 +1,5 @@
 library(readxl)
-df=read_xlsx('/home/student/abijith/R/items.xlsx')
+df=read_xlsx('path/items.xlsx')
 df=unique(df)
 df
 nr=c(product='file',number=5)
