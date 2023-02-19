@@ -5,4 +5,5 @@ R lab programs
  - Dataframe 
  - Working with CSV files
  - Working with EXCEL files
+ - List,Factors,Matrix
  
