@@ -25,3 +25,9 @@ df=data.frame('col1'=a,'col2'=b)
 df
 nrow(df)
 ncol(df)
+
+# Factors
+
+f=c(TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE)
+factor(f)
+levels(f)
