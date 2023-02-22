@@ -6,4 +6,4 @@ R lab programs
  - Working with CSV files
  - Working with EXCEL files
  - List,Factors,Matrix
- 
+ - Histogram,Boxplot
