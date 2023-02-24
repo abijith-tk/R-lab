@@ -7,3 +7,4 @@ R lab programs
  - Working with EXCEL files
  - List,Factors,Matrix
  - Histogram,Boxplot
+ - Pie chart, Bar chart
