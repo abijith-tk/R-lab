@@ -1,8 +1,0 @@
-library(ggplot2)
-library(dplyr)
-library(tidyselect)
-group=rep(c("N","S","E","W"),times=4)
-year=as.numeric(rep(seq(2017,2020),each=4))
-price=runif(16,50,100)
-data=data.frame(year,price,group)
-ggplot(data,aes(x=year,y=price,fill=group))+geom_area()
