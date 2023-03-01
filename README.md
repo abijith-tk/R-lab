@@ -8,3 +8,4 @@ R lab programs
  - List,Factors,Matrix
  - Histogram,Boxplot
  - Pie chart, Scatter plot, Bar chart
+ - Area chart, Heatmap
