@@ -27,3 +27,8 @@ barplot(m1,names.arg = x,col = c('red','green','blue'),beside = TRUE)
 # Without beside argument 
 barplot(m1,names.arg = x,col = c('red','green','blue'))
 
+install.packages("scatterplot3d")
+library(scatterplot3d)
+attach(iris)
+scatterplot3d(Sepal.Length,Sepal.Width)
+
