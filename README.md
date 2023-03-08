@@ -10,3 +10,4 @@ R lab programs
  - Pie chart, Scatter plot, Bar chart
  - Area chart, Heatmap, Correlogram
  - Lattice 
+ - Naive Bayes Classification
