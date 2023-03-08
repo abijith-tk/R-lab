@@ -11,3 +11,4 @@ R lab programs
  - Area chart, Heatmap, Correlogram
  - Lattice 
  - Naive Bayes Classification
+ - K Nearest Neighbor Classification
