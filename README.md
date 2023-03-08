@@ -9,6 +9,6 @@ R lab programs
  - Histogram,Boxplot
  - Pie chart, Scatter plot, Bar chart
  - Area chart, Heatmap, Correlogram
- - Lattice 
+ - Lattice - Scatterplot, 3D Scatterplot
  - Naive Bayes Classification
  - K Nearest Neighbor Classification
