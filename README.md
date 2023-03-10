@@ -12,3 +12,4 @@ R lab programs
  - Lattice - Scatterplot, 3D Scatterplot
  - Naive Bayes Classification
  - K Nearest Neighbor Classification
+ - Time series
