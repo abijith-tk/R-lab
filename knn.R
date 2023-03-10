@@ -3,11 +3,12 @@ library(e1071)
 library(caTools)
 library(class)
 m=data("iris")
+
+# Splitting the dataset
 split=sample.split(iris,SplitRatio = 0.8)
 train_cl=subset(iris,split=='TRUE')
 test_cl=subset(iris,split=='FALSE')
 
-# Normalization
 train_scale=scale(train_cl[,1:4])
 test_scale=scale(test_cl[,1:4])
 
