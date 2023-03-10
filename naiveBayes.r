@@ -1,8 +1,3 @@
-install.packages('e1071')
-install.packages("caTools")
-install.packages("caret")
-
-
 library(e1071)
 library(caTools)
 library(caret)
