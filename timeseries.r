@@ -11,3 +11,8 @@ td=matrix(c(td1,td2),nrow=10)
 tsdata=ts(td,start=c(2022,1),frequency = 10)
 plot(tsdata,main="Multiple Time series data")
 
+class(AirPassengers)
+plot(AirPassengers)
+data=ts(AirPassengers,frequency = 12)
+d=decompose(data,'multiplicative')
+plot(d)
